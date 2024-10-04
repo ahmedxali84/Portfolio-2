@@ -1,5 +1,5 @@
 * {
-    background-color: black;
+    background-color: white;
     color: green;
     text-decoration: none;
 }
@@ -44,6 +44,16 @@ h1 {
     text-decoration: underline;
     color: blue;
     text-align: center;
+}
+.btn1:hover{
+    transform: scale(1.10);
+    background-color: green;
+    color: white;
+}
+.btn2:hover{
+    transform: scale(1.10);
+    background-color: blue;
+    color: white;
 }
 
 /* Responsive Styles */
