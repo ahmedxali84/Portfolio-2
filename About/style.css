@@ -1,5 +1,5 @@
 * {
-    background-color: black;
+    background-color: white;
     text-decoration: none;
 }
 li {
@@ -41,13 +41,23 @@ ul {
 }
 h1 {
     font-size: 50px;
-    color: blue;
+    color: red;
     text-align: center;
 }
 p {
     font-size: 30px;
     margin: 30px;
-    color: blue;
+    color: red;
+}
+.btn1:hover{
+    transform: scale(1.10);
+    background-color: green;
+    color: white;
+}
+.btn2:hover{
+    transform: scale(1.10);
+    background-color: blue;
+    color: white;
 }
 
 /* Responsive Styles */
