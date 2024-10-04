@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 body {
-    background: radial-gradient(orange, white);
+    background-color: white;
 }
 li {
     background-color: white;
@@ -41,7 +41,6 @@ ul {
 }
 .Assignments {
     text-align: center;
-    background-color: orange;
     margin: 50px auto;
     padding: 30px 20px;
     width: auto;
@@ -49,6 +48,16 @@ ul {
 .Assignments a {
     font-size: 20px;
     color: orangered;
+}
+.btn1:hover{
+    transform: scale(1.10);
+    background-color: green;
+    color: white;
+}
+.btn2:hover{
+    transform: scale(1.10);
+    background-color: blue;
+    color: white;
 }
 
 /* Responsive Styles */
