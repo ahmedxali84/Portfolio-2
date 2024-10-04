@@ -66,6 +66,16 @@ h1 {
     font-size: 20px;
     margin: 100px 80px;
 }
+.btn1:hover{
+    transform: scale(1.10);
+    background-color: green;
+    color: white;
+}
+.btn2:hover{
+    transform: scale(1.10);
+    background-color: blue;
+    color: white;
+}
 
 @media (max-width: 768px) {
     li {
