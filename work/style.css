@@ -1,0 +1,90 @@
+* {
+    text-decoration: none;
+}
+body {
+    background: radial-gradient(orange, white);
+}
+li {
+    background-color: white;
+    border: 2px solid orange;
+    box-shadow: 1px 3px 3px 1px orange;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px;
+}
+ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.btn1, .btn2 {
+    border-radius: 15px;
+    padding: 10px 35px;
+    position: relative;
+    margin-top: 20px;
+}
+.btn1 {
+    border-color: greenyellow;
+    background-color: greenyellow;
+    color: green;
+    margin-left: auto;
+}
+.btn2 {
+    border-color: rgb(91, 91, 241);
+    background-color: white;
+    color: rgb(91, 91, 241);
+    margin-left: 10px;
+}
+.img-a {
+    margin: 0 auto;
+}
+.Assignments {
+    text-align: center;
+    background-color: orange;
+    margin: 50px auto;
+    padding: 30px 20px;
+    width: auto;
+}
+.Assignments a {
+    font-size: 20px;
+    color: orangered;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    ul {
+        font-size: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn1, .btn2 {
+        margin: 10px auto;
+        display: block;
+    }
+    .Assignments {
+        margin: 30px auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    li {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .btn1, .btn2 {
+        padding: 10px 25px;
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+    }
+    .Assignments {
+        margin: 20px auto;
+        width: 100%;
+    }
+    .Assignments a {
+        font-size: 18px;
+    }
+}
